@@ -1,5 +1,5 @@
 import React from "react";
-import logo from '../brand/logo.svg'
+import logo from '../brand/logoWhite.svg'
 import { Nav, NavLink, NavBtn, NavMenu, NavBtnLink, Bars } from "./navbarElements";
 
 const Navbar = () => {
@@ -8,7 +8,7 @@ const Navbar = () => {
        <Nav>
            <NavLink to="/">
                {/*<h1>Logo</h1>*/}
-               <img src={logo} alt="logo" />
+               <img src={logo} style={{ height: 55, width: 55 }} alt="logo" />
            </NavLink>
            <Bars />
 
