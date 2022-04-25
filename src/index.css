@@ -5,12 +5,54 @@
   padding: 0;
   margin: 0;
 }
-
 :root {
   /* colors */
   --primary: var(--oc-teal-5);
+  --secondary:var(--oc-violet-5);
+  --accent: var(--oc-yellow-4);
 
-  /* fonts */
+  --primary1: var(--oc-teal-1);
+  --primary2: var(--oc-teal-3);
+  --primary3: var(--oc-teal-4);
+  --primary6: var(--oc-teal-6);
+  --primary7: var(--oc-teal-7);
+  --primary8: var(--oc-teal-8);
+
+  --secondary1: var(--oc-violet-1);
+  --secondary2: var(--oc-violet-3);
+  --secondary3: var(--oc-violet-4);
+  --secondary6: var(--oc-violet-7);
+  --secondary7: var(--oc-violet-9);
+
+  --accent1: var(--oc-yellow-1);
+  --accent2: var(--oc-yellow-3);
+  --accent3: var(--oc-yellow-4);
+  --accent6: var(--oc-yellow-6);
+  --accent7: var(--oc-yellow-8);
+
+  --text: var(--oc-gray-8);
+  --text-light: var(--oc-gray-6);
+  --text-dark: var(--oc-gray-9);
+
+  --red: var(--oc-red-6);
+  --orange: var(--oc-orange-5);
+  --blue: var(--oc-blue-5);
+  --green: var(--oc-green-4);
+  --white: #fafaff;
+  --black: #1c1c1c;
+
+  /* font sizes */
+  --fs-sm: clamp(0.8rem, 0.21vw + 0.74rem, 0.89rem);
+  --fs-body: clamp(1rem, 0.43vw + 0.87rem, 1.19rem);
+  --fs-md: clamp(1.25rem, 0.76vw + 1.01rem, 1.58rem);
+  --fs-lg: clamp(1.56rem, 1.25vw + 1.17rem, 2.11rem);
+  --fs-xl: clamp(1.95rem, 1.96vw + 1.34rem, 2.81rem);
+  --fs-2xl: clamp(2.44rem, 2.99vw + 1.51rem, 3.75rem);
+  --fs-3xl: clamp(3.05rem, 4.45vw + 1.66rem, 5rem);
+  /* line heights */
+  --lh-sm: 1.25;
+  --lh-body: 1.5;
+  /* font families */
   --font-system: -apple-system,
   BlinkMacSystemFont,
   'Segoe UI',
@@ -22,14 +64,16 @@
   'Droid Sans',
   'Helvetica Neue',
   sans-serif;
-  --font-base: 'Poppins', var(--font-system);
-  --font-title: 'Syne', var(--font-system);
+  --ff-body: 'Poppins', var(--font-system);
+  --ff-title: 'Syne', var(--font-system);
 }
-
 body {
-  font-family: var(--font-base);
+  font-family: var(--ff-body);
   font-weight: 400;
-  font-size: 1em;
+  font-size: var(--fs-body);
+  line-height: var(--lh-body);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: var(--white);
+  color: var(--text);
 }
