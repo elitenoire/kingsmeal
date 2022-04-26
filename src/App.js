@@ -1,18 +1,23 @@
-import { BrowserRouter as Router } from 'react-router-dom'
+import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import Navbar from './components/navbar'
-import logo from './brand/logo.svg'
 import './App.css'
+import Home from './Pages/Home'
 
 function App() {
 	return (
-		<Router>
-			<Navbar />
-			<header className="App-header">
-				<img src={logo} className="App-logo" alt="logo" />
-				This is KingsMeal
-				<p>A restaurant on the go!</p>
-			</header>
-		</Router>
+		<div className='App'>
+			<BrowserRouter>
+	
+		<Navbar />
+			<Routes>
+				<Route path="/" element={<Home />} />
+				{/* <Route path="about" element={<About />} />
+				<Route path="section" element={<Section />} /> */}
+
+			</Routes>
+	</BrowserRouter>
+	</div>
+
 	)
 }
 
