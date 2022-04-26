@@ -30,9 +30,8 @@
   --accent6: var(--oc-yellow-6);
   --accent7: var(--oc-yellow-8);
 
-  --text: var(--oc-gray-8);
-  --text-light: var(--oc-gray-6);
-  --text-dark: var(--oc-gray-9);
+  --text: var(--oc-gray-9);
+  --text-light: var(--oc-gray-7);
 
   --red: var(--oc-red-6);
   --orange: var(--oc-orange-5);
@@ -51,7 +50,7 @@
   --fs-3xl: clamp(3.05rem, 4.45vw + 1.66rem, 5rem);
   /* line heights */
   --lh-sm: 1.25;
-  --lh-body: 1.5;
+  --lh-body: 1.375;
   /* font families */
   --font-system: -apple-system,
   BlinkMacSystemFont,
