@@ -24,7 +24,7 @@ It also includes a `Navbar` and `Footer` design for easy navigation.
 This mouth-watering web delicacy was prepared by these superchefs in disguise:
 
 -   Eva Raymond [@elitenoire](https://github.com/elitenoire) _(Team Leader)_
--   Member [@tab21](https://github.com/tab21)
+-   Tabassum Fatima [@tab21](https://github.com/tab21)
 -   Member [@d-emrys](https://github.com/d-emrys)
 -   Luke Bamtefa [@heisluke](https://github.com/heisluke)
 -   Andrew Irorere [@andreyscott](https://github.com/andreyscott)

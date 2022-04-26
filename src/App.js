@@ -1,7 +1,8 @@
 import { BrowserRouter as Router } from 'react-router-dom'
 import Navbar from './components/navbar'
-import logo from './brand/logo.svg'
+import logo from './assets/brand/logo.svg'
 import './App.css'
+import About from './components/About'
 
 function App() {
 	return (
@@ -12,6 +13,9 @@ function App() {
 				This is KingsMeal
 				<p>A restaurant on the go!</p>
 			</header>
+			
+			{/* for about page  */}
+			{/* <About/> */}
 		</Router>
 	)
 }
