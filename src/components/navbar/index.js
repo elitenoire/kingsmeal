@@ -1,4 +1,5 @@
-import React from "react";
+
+import React from "react"
 import logo from '../../assets/brand/logoWhite.svg'
 import { Nav, NavLink, NavBtn, NavMenu, NavBtnLink, Bars } from "./navbarElements";
 
