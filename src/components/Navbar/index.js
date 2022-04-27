@@ -1,5 +1,5 @@
 import { useState, useCallback } from 'react'
-import { NavLink } from 'react-router-dom'
+import { Link, NavLink } from 'react-router-dom'
 import Logo from '../Logo'
 import { Icon } from '../Icon'
 import './navbar.css'
@@ -14,7 +14,9 @@ function Navbar() {
 	return (
 		<header className="navbar">
 			<div className="navbar-logo">
+			<Link to="/">
 				<Logo full />
+				</Link>
 			</div>
 			<nav className="navbar-nav" data-open={open ? '' : null}>
 				<NavLink to="/about" className="navbar-link">
