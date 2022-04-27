@@ -18,14 +18,14 @@
 }
 .product-hero h1 {
     font-family: var(--ff-title);
-    font-size: var(--fs-xl);
+    font-size: var(--fs-2xl);
+    margin-bottom: 0.25em;
 }
 .product-hero p:first-of-type {
-    font-size: var(--fs-md);
+    font-size: var(--fs-lg);
 }
 .product-hero p:nth-of-type(2) {
     margin-top: 0.5em;
-    font-weight: 300;
 }
 .product-hero-icon {
     display: none;
