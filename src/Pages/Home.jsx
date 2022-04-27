@@ -1,4 +1,3 @@
-import React from 'react'
 import Content from '../components/Content/Content'
 import DisplayContent from '../components/DisplayContent/DisplayContent'
 import SupportSection from '../components/SupportSection/SupportSection'
