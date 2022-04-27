@@ -35,7 +35,7 @@ function ProductPage() {
 								<li key={menuitem.id} className="product-list-gridcell">
 									<ProductCard
 										animated
-										src={`/img/${menuitem.image}`}
+										src={`/images/dish/${menuitem.image}`}
 										title={menuitem.title}
 										price={menuitem.price}
 										bg={category.color}
