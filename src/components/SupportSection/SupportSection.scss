@@ -26,7 +26,7 @@
            flex-direction: column;
            justify-content:center;
            align-items:flex-start;
-           padding: 25px 60px;
+           padding: 1.25em 3em;
            background-color: var(--primary);
            background-image: url('../../../public/images/Pattern.svg');
            background-size: contain;
@@ -34,11 +34,12 @@
 
           .support-heading{
               color: var(--white);
-              font-size: 49px;
+              font-size: var(--fs-2xl);
               line-height: 1.2;
               margin-top: 20px;
               margin-bottom:10px;
               font-weight: 700;
+              word-break: break-word;
 
               .dim-heading{
                   margin-right: 0.25em;
