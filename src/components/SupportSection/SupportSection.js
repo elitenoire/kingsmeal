@@ -6,7 +6,7 @@ const SupportSection = () => {
 		<div className="supportSection">
 			<div className="support-container">
 				<div className="support-img">
-					<img src="images/group-Photo.png" alt="support group" />
+					<img src="images/group-Photo.png" alt="support" />
 				</div>
 				<div className="support-content">
 					<h1 className="support-heading">

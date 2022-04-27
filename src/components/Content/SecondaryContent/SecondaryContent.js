@@ -19,7 +19,7 @@ const SecondaryContent = ( props ) => {
             </div>
           </div>
           <div className="content-img">
-            <img src={`images/${props.image}`} alt="heroimg" className="hero-img"/>
+            <img src={`images/${props.image}`} alt="hero" className="hero-img"/>
           </div>
         </div>
       </div>
