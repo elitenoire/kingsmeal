@@ -20,6 +20,9 @@
     font-family: var(--ff-title);
     font-size: var(--fs-xl);
 }
+.product-hero p:first-of-type {
+    font-size: var(--fs-md);
+}
 .product-hero p:nth-of-type(2) {
     margin-top: 0.5em;
     font-weight: 300;

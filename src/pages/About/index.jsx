@@ -39,27 +39,27 @@ export default function About() {
         <ul className="about-grid">
           <li>
             <img src={evaUrl} alt="person" />
-            <a href="https://github.com/elitenoire">Eva Raymond</a>
+            <a href="https://github.com/elitenoire" target="_blank" rel="noreferrer">Eva Raymond</a>
           </li>
           <li>
             <img src={fatimaUrl} alt="person" />
-            <a href="https://github.com/tab21">Tabassum Fatima</a>
+            <a href="https://github.com/tab21" target="_blank" rel="noreferrer">Tabassum Fatima</a>
           </li>
           <li>
             <img src={demrysUrl} alt="person" />
-            <a href="https://github.com/d-emrys">d-emrys</a>
+            <a href="https://github.com/d-emrys" target="_blank" rel="noreferrer">d-emrys</a>
           </li>
           <li>
             <img src={lukeUrl} alt="person" />
-            <a href="https://github.com/heisluke">Luke Bamtefa</a>
+            <a href="https://github.com/heisluke" target="_blank" rel="noreferrer">Luke Bamtefa</a>
           </li>
           <li>
             <img src={andreyUrl} alt="person" />
-            <a href="https://github.com/andreyscott">Andrew Irorere</a>
+            <a href="https://github.com/andreyscott" target="_blank" rel="noreferrer">Andrew Irorere</a>
           </li>
           <li>
             <img src={elsaUrl} alt="person" />
-            <a href="https://github.com/elsashai">Elsa</a>
+            <a href="https://github.com/elsashai" target="_blank" rel="noreferrer">Elsa</a>
           </li>
         </ul>
 
