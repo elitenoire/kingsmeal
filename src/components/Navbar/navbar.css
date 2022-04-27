@@ -95,6 +95,7 @@
         opacity: 1;
         visibility: visible;
         pointer-events: auto;
+        z-index: 999;
     }
     .navbar-nav[data-open] .navbar-link {
         opacity: 1;
