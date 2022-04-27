@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom'
+import LinkTop from '../LinkTop'
 import Logo from '../Logo'
 import { Icon } from '../Icon'
 import './footer.css'
@@ -44,6 +45,7 @@ function Footer() {
 			</div>
 			<hr />
 			<p className="footer-copyright">{`© ${new Date().getFullYear()} Kings Meal Inc. | Made with 💚`}</p>
+			<LinkTop />
 		</footer>
 	)
 }
