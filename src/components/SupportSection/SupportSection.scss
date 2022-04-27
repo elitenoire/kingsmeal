@@ -9,14 +9,10 @@
 
         @media screen and (min-width: 769px){
             display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-column-gap: 0.9rem;
+            grid-template-columns: 1fr 1fr;
+            grid-column-gap: 0.9rem;
 
         }
-            
-        
-       
-
         .support-img{
             img{
                 width: 100%;
@@ -24,41 +20,41 @@
             }
         }
 
-       .support-content{
-           display: flex;
-           flex-direction: column;
-           justify-content:center;
-           align-items:flex-start;
-           padding: 25px 60px;
-           background-color: #35b8be;
-           background-image: url('../../../public/images/Pattern.svg');
-           background-size: contain;
-           background-repeat: no-repeat;
+        .support-content{
+            display: flex;
+            flex-direction: column;
+            justify-content:center;
+            align-items:flex-start;
+            padding: 25px 60px;
+            background-color: #35b8be;
+            background-image: url('../../../public/images/Pattern.svg');
+            background-size: contain;
+            background-repeat: no-repeat;
 
-          .support-heading{
-              color: #fff;
-              font-size:55px;
-              line-height: 1;
-              margin-top: 20px;
-              margin-bottom:10px;
-              font-weight: 700;
+            .support-heading{
+                color: #fff;
+                font-size:55px;
+                line-height: 1;
+                margin-top: 20px;
+                margin-bottom:10px;
+                font-weight: 700;
 
-              .dim-heading{
-                  color:#168f95;
-                  margin-right: 10px;
-              }
-          }
+                .dim-heading{
+                    color:#168f95;
+                    margin-right: 10px;
+                }
+            }
 
-          .support-button{
-              margin-top: 42px;
-              background-color: #fff;
-              color: #35b8be;
-              padding: 20px 35px;
-              font-size:18px;
-              text-align: center;
-              border-radius:6px;
-          }
-       }
+            .support-button{
+                margin-top: 42px;
+                background-color: #fff;
+                color: #35b8be;
+                padding: 20px 35px;
+                font-size:18px;
+                text-align: center;
+                border-radius:6px;
+            }
+        }
     }
 
 }
