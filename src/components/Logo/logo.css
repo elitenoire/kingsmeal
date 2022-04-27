@@ -21,4 +21,6 @@
 .logo .logo-name {
     flex: 1;
     font-family: var(--ff-title);
+    font-weight: 700;
+    font-size: 1.25em;
 }
