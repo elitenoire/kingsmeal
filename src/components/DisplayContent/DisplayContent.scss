@@ -36,7 +36,7 @@
                 }
 
                 .display-primary-text{
-                    color:#2fb9c0;
+                    color:var(--primary9);
                 }                
             }
 
@@ -62,7 +62,7 @@
                 .btn{
                     padding:20px 35px;
                     border-radius: 6px;
-                    background-color: #2fb9c0;
+                    background-color: var(--primary9);
                     background-image: url(../../../public/images/Button-Wave.svg);
                     background-repeat: no-repeat;
                     font-size: 19px;
@@ -75,7 +75,7 @@
         .display-hero-img{
             display: flex;
             align-items: center;
-            width: 70%;
+            width: 80%;
             height: 100%;
         }
     }
