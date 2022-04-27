@@ -10,6 +10,7 @@ import { ReactComponent as Facebook } from '../../assets/icons/facebook.svg'
 import { ReactComponent as Twitter } from '../../assets/icons/twitter.svg'
 import { ReactComponent as MenuBar } from '../../assets/icons/menu.svg'
 import { ReactComponent as Close } from '../../assets/icons/close.svg'
+import { ReactComponent as External } from '../../assets/icons/external.svg'
 
 export const icons = {
 	african: African,
@@ -24,4 +25,5 @@ export const icons = {
 	twitter: Twitter,
 	menu: MenuBar,
 	close: Close,
+	external: External,
 }

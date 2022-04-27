@@ -77,3 +77,10 @@ body {
   background-color: var(--white);
   color: var(--text);
 }
+
+a,a:visited {
+  color: inherit;
+}
+a.plain {
+  text-decoration: none;
+}
