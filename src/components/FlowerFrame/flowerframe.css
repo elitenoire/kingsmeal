@@ -1,0 +1,50 @@
+.ff-wrap {
+    position: relative;
+    display: flex;
+    width: 100%;
+}
+
+.ff-frame {
+    width: 100%;
+}
+@media (prefers-reduced-motion: no-preference) {
+    .ff-wrap {
+        overflow: hidden;
+    }
+    .ff-wrap[data-animated]:hover .ff-frame {
+        animation: frame-spin infinite 10s linear;
+    }
+}
+
+.ff-content {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8%;
+    color: var(--white);
+}
+.ff-content img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+    background-color: hsl(0deg 0% 0% / 15%);
+}
+.ff-content svg {
+    width: 50%;
+    fill: currentColor;
+}
+
+@keyframes frame-spin {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}

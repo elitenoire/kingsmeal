@@ -1,0 +1,191 @@
+[
+  {
+    "id": "c01",
+    "label": "New",
+    "color": "accent",
+    "icon": "new",
+    "desc": "Be one of the firsts to experience our latest recipe.",
+    "menu": [
+      {
+        "id": "m101",
+        "title": "Caesar Salad",
+        "price": 2000,
+        "image": "caesarsalad.webp"
+      },
+      {
+        "id": "m102",
+        "title": "Chicken Broccoli",
+        "price": 2500,
+        "image": "chickenbroccoli.webp"
+      },
+      {
+        "id": "m103",
+        "title": "Chipotle Fish Bowl",
+        "price": 2500,
+        "image": "chipotlefishbowl.webp"
+      },
+      {
+        "id": "m104",
+        "title": "Creamy Chicken",
+        "price": 2500,
+        "image": "creamychicken.webp"
+      },
+      {
+        "id": "m105",
+        "title": "Toast and Salmon",
+        "price": 2000,
+        "image": "toastsalmon.webp"
+      }
+    ]
+  },
+  {
+    "id": "c02",
+    "label": "Popular",
+    "color": "secondary",
+    "icon": "popular",
+    "desc": "Treat yourself to our addictive dishes, the more the merrier.",
+    "menu": [
+      {
+        "id": "m201",
+        "title": "Potato Beef Curry",
+        "price": 2500,
+        "image": "potatobeefcurry.webp"
+      },
+      {
+        "id": "m202",
+        "title": "Shrimp Paella",
+        "price": 3000,
+        "image": "shrimppaella.webp"
+      },
+      {
+        "id": "m203",
+        "title": "Pork Ramen",
+        "price": 2500,
+        "image": "porkramen.webp"
+      },
+      {
+        "id": "m204",
+        "title": "Chicken Teriyaki",
+        "price": 2500,
+        "image": "chickenteriyaki.webp"
+      },
+      {
+        "id": "m205",
+        "title": "Pasta Primavera",
+        "price": 2000,
+        "image": "pastaprimavera.webp"
+      }
+    ]
+  },
+  {
+    "id": "c03",
+    "label": "African",
+    "color": "orange",
+    "icon": "african",
+    "desc": "Our unique recipe for high-quality, flavour-rich ethnic food.",
+    "menu": [
+      {
+        "id": "m301",
+        "title": "Plantain and Ofada",
+        "price": 1500,
+        "image": "plantainofada.webp"
+      },
+      {
+        "id": "m302",
+        "title": "Nigerian Jollof Rice",
+        "price": 1200,
+        "image": "jollof.webp"
+      },
+      {
+        "id": "m303",
+        "title": "Rice and Ofada",
+        "price": 1500,
+        "image": "riceofada.webp"
+      },
+      {
+        "id": "m304",
+        "title": "Poundo and Veg Soup",
+        "price": 2000,
+        "image": "poundovegturkey.webp"
+      },
+      {
+        "id": "m305",
+        "title": "Eba and Eforiro Soup",
+        "price": 2000,
+        "image": "ebaeforirogoat.webp"
+      }
+    ]
+  },
+  {
+    "id": "c04",
+    "label": "Spicy",
+    "color": "red",
+    "icon": "chilli",
+    "desc": "The perfect way to spice up your inner cravings.",
+    "menu": [
+      {
+        "id": "m401",
+        "title": "Cheesy Salsa",
+        "price": 2000,
+        "image": "cheesysalsa.webp"
+      },
+      {
+        "id": "m402",
+        "title": "Chili Turkey Beans",
+        "price": 2000,
+        "image": "chiliturkeybeans.webp"
+      },
+      {
+        "id": "m403",
+        "title": "Fish Peppersoup",
+        "price": 1500,
+        "image": "peppersoup.webp"
+      },
+      {
+        "id": "m404",
+        "title": "Fiery Tacos",
+        "price": 2000,
+        "image": "tacos.webp"
+      },
+      {
+        "id": "m405",
+        "title": "Firecracker Prawn",
+        "price": 2000,
+        "image": "crackerprawn.webp"
+      }
+    ]
+  },
+  {
+    "id": "c05",
+    "label": "Vegan",
+    "color": "primary",
+    "icon": "carrot",
+    "desc": "For a healthy lifestyle, these vegan selection are vibrant and delicious.",
+    "menu": [
+      {
+        "id": "m501",
+        "title": "Mixed Veggie Bowl",
+        "price": 1500,
+        "image": "mixedveggiebowl.webp"
+      },
+      {
+        "id": "m502",
+        "title": "Vegan Salad",
+        "price": 1500,
+        "image": "vegansalad.webp"
+      },
+      {
+        "id": "m503",
+        "title": "Egg Donburi",
+        "price": 1800,
+        "image": "eggdonburi.webp"
+      },
+      {
+        "id": "m504",
+        "title": "Fruity Maple Pancake",
+        "price": 1500,
+        "image": "pancake.webp"
+      }
+    ]
+  }
+]

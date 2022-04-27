@@ -17,6 +17,7 @@
   --primary6: var(--oc-teal-6);
   --primary7: var(--oc-teal-7);
   --primary8: var(--oc-teal-8);
+  --primary9: var(--oc-teal-9);
 
   --secondary1: var(--oc-violet-1);
   --secondary2: var(--oc-violet-3);
@@ -30,16 +31,15 @@
   --accent6: var(--oc-yellow-6);
   --accent7: var(--oc-yellow-8);
 
-  --text: var(--oc-gray-8);
-  --text-light: var(--oc-gray-6);
-  --text-dark: var(--oc-gray-9);
+  --text: var(--oc-gray-9);
+  --text-light: var(--oc-gray-7);
 
   --red: var(--oc-red-6);
   --orange: var(--oc-orange-5);
   --blue: var(--oc-blue-5);
   --green: var(--oc-green-4);
   --white: #fafaff;
-  --black: #1c1c1c;
+  --black: #040506;
 
   /* font sizes */
   --fs-sm: clamp(0.8rem, 0.21vw + 0.74rem, 0.89rem);
@@ -51,7 +51,7 @@
   --fs-3xl: clamp(3.05rem, 4.45vw + 1.66rem, 5rem);
   /* line heights */
   --lh-sm: 1.25;
-  --lh-body: 1.5;
+  --lh-body: 1.375;
   /* font families */
   --font-system: -apple-system,
   BlinkMacSystemFont,

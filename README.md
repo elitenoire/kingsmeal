@@ -24,7 +24,7 @@ It also includes a `Navbar` and `Footer` design for easy navigation.
 This mouth-watering web delicacy was prepared by these superchefs in disguise:
 
 -   Eva Raymond [@elitenoire](https://github.com/elitenoire) _(Team Leader)_
--   Member [@tab21](https://github.com/tab21)
+-   Tabassum Fatima [@tab21](https://github.com/tab21)
 -   Member [@d-emrys](https://github.com/d-emrys)
 -   Luke Bamtefa [@heisluke](https://github.com/heisluke)
 -   Andrew Irorere [@andreyscott](https://github.com/andreyscott)
@@ -72,7 +72,10 @@ yarn start
 -   Logo by [Anastasia
     Latysheva](https://thenounproject.com/icon/crown-1077491/) from
     thenounproject
--   SVG shape by [GREY Perspective](https://thenounproject.com/icon/flower-logo-1377478/) from the nounproject
+-   SVG shape by [GREY
+    Perspective](https://thenounproject.com/icon/flower-logo-1377478/) from the
+    nounproject
+-   Icons from the nounproject, simpleicons, heroicons.
 -   Image of dishes from [Wagamama][wagamama], [SnapKitchen][snapkitchen],
     [OurEdenLife][edenlife] and [TheAvocadoShow][avocado]
 

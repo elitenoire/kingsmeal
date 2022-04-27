@@ -1,0 +1,26 @@
+.logo,
+.logo-wrap {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo  {
+    gap: 0.5em;
+}
+.logo-wrap {
+    width: 2em;
+    height: 2em;
+    border-radius: 50%;
+    background-color: var(--primary);
+    color: var(--white);
+}
+.logo-wrap svg {
+    width: 65%;
+    fill: currentColor
+}
+.logo .logo-name {
+    flex: 1;
+    font-family: var(--ff-title);
+    font-weight: 700;
+    font-size: 1.25em;
+}
