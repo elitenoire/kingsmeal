@@ -2,6 +2,8 @@ import React from 'react'
 import './Footer.scss';
 import {Link } from 'react-router-dom'
 import logo from '../../assets/brand/logo.svg';
+import Logo from '../Logo'
+
 
 const Footer = () => {
   return (
@@ -9,30 +11,30 @@ const Footer = () => {
         <div className="footer-container">
             <div className="text-grids">
                 <div className="about details">
-                    <img src={logo} alt="logo"/>
+                    {/* <img src={Logo} alt="logo"/> */}
+                    <Logo as="span" />
                     <p>
-                        Takeaway & Delivery template<br></br>
-                        for small - medium businesses.
+                        Kingsmeal <br></br>
+                        for small and medium businesses.
                     </p>
                 </div>
                 <div className="about">
                     <div className="tag company">COMPANY</div>
                     <Link to="/" className="links" >Home</Link>
-                    <Link to="/order" className="links" >Order</Link>
-                    <Link to="/faq" className="links" >FAQ</Link>
+                    <Link to="/about" className="links" >About</Link>
+                    <Link to="/product" className="links" >Product</Link>
+                    <Link to="/contact" className="links" >NavBart</Link>
                     <Link to="/contact" className="links" >Contact</Link>
                 </div>
                 <div className="about">
-                    <div className="tag template">TEMPLATE</div>
-                    <Link to="#" className="links" >Style Guide</Link>
-                    <Link to="#" className="links" >Changelog</Link>
-                    <Link to="#" className="links" >Licence</Link>
-                    <Link to="#" target="_blank" className="links" >Webflow University</Link>
+                    <div className="tag template">DEV</div>
+                    <Link to="#" className="links" >Andrey</Link>
+                    <Link to="#" className="links" >Eva</Link>
+                    <Link to="#" className="links" >Eva</Link>
+                    <Link to="#" className="links" >Luke</Link>
+                    <Link to="#" className="links" >Else</Link>
                 </div>
-                <div className="about">
-                    <div className="tag flowbase">FLOWBASE</div>
-                    <Link to="#" target="_blank" className="links" >More Cloneables</Link>
-                </div>
+            
             </div>
             <div className="footer-credits">
                 <div className="credits">
