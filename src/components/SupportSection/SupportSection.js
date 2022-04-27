@@ -12,7 +12,7 @@ const SupportSection = () => {
 					<h1 className="support-heading">
 						<span className="dim-heading">Support</span>good food and local business.
 					</h1>
-					<Link to="/order" className="support-button">
+					<Link to="/product" className="support-button">
 						Order Now
 					</Link>
 				</div>

@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import SecondaryContent from './SecondaryContent/SecondaryContent'
 import './Content.scss'
 
@@ -17,10 +18,10 @@ const Content = () => {
 							everyday.
 						</p>
 						<div className="btn-container">
-							<a href="/order" className="btn">
+							<Link to="/product" className="btn">
 								{' '}
-								Place and Order
-							</a>
+								Place Order
+							</Link>
 						</div>
 						<div className="feedbacks">
 							<img className="feedback-img" src="images/trustpilot-logo.svg" alt="trustpilot" />

@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import './DisplayContent.scss'
 
 const DisplayContent = () => {
@@ -18,10 +19,10 @@ const DisplayContent = () => {
 							free.
 						</p>
 						<div className="display-btn-container">
-							<a href="/order" className="btn">
+							<Link to="/contact" className="btn">
 								{' '}
 								See our FAQ
-							</a>
+							</Link>
 						</div>
 					</div>
 				</div>

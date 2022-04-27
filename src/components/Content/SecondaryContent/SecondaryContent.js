@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import './SecondaryContent.scss'
 
 const SecondaryContent = props => {
@@ -12,10 +13,10 @@ const SecondaryContent = props => {
 						</h2>
 						<p className="text-p">{props.para}</p>
 						<div className="btn-container">
-							<a href="/order" className="btn">
+							<Link to="/about" className="btn">
 								{' '}
 								{props.btnText}
-							</a>
+							</Link>
 						</div>
 					</div>
 					<div className="content-img">
