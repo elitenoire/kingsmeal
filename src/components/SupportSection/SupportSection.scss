@@ -30,14 +30,14 @@
            justify-content:center;
            align-items:flex-start;
            padding: 25px 60px;
-           background-color: #35b8be;
+           background-color: var(--primary9);;
            background-image: url('../../../public/images/Pattern.svg');
            background-size: contain;
            background-repeat: no-repeat;
 
           .support-heading{
               color: #fff;
-              font-size:55px;
+              font-size: 49px;
               line-height: 1;
               margin-top: 20px;
               margin-bottom:10px;
@@ -45,14 +45,14 @@
 
               .dim-heading{
                   color:#168f95;
-                  margin-right: 10px;
+                  
               }
           }
 
           .support-button{
               margin-top: 42px;
               background-color: #fff;
-              color: #35b8be;
+              color: var(--primary9);;
               padding: 20px 35px;
               font-size:18px;
               text-align: center;
