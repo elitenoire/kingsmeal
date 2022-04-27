@@ -13,8 +13,8 @@ const Content = () => {
 							to your door.
 						</h1>
 						<p className="text-p">
-							When an unknown printer took a galley of type and scrambled it to make a type specimen book.
-							It has survived not only five centuries, but also
+							Home to fresh & authentic African, European & Spicy foods & cocktails freshly prepared
+							everyday.
 						</p>
 						<div className="btn-container">
 							<a href="/order" className="btn">
@@ -39,7 +39,7 @@ const Content = () => {
 			<SecondaryContent
 				headingBefore="The home of"
 				headingAfter="fresh products"
-				para="When an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also"
+				para="We pride ourselves on discovering the best tastes, flavours and recipes from around the world and sharing them with you."
 				btnText="Learn about us"
 				image="group.webp"
 			/>

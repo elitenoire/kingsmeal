@@ -14,8 +14,8 @@ const DisplayContent = () => {
 							<br></br>
 						</h1>
 						<p className="display-text-p">
-							When an unknown printer took a galley of type and scrambled it to make a type specimen book.
-							It has survived not only five centuries, but also
+							Dine in to sample our tasty dishes, or have it delivered to you. Make table reservations for
+							free.
 						</p>
 						<div className="display-btn-container">
 							<a href="/order" className="btn">
