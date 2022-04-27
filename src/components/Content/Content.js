@@ -31,7 +31,7 @@ const Content = () => {
 						</div>
 					</div>
 					<div className="content-img">
-						<img src="images/Hero-Image.png" alt="heroimg" className="hero-img" />
+						<img src="images/hero-image.webp" alt="heroimg" className="hero-img" />
 					</div>
 				</div>
 			</div>
@@ -41,7 +41,7 @@ const Content = () => {
 				headingAfter="fresh products"
 				para="When an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also"
 				btnText="Learn about us"
-				image="Group.png"
+				image="group.webp"
 			/>
 		</>
 	)

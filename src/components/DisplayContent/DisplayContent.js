@@ -6,7 +6,7 @@ const DisplayContent = () => {
 			<div className="display-content">
 				<div className="display-content-container">
 					<div className="display-content-img">
-						<img src="images/Phones.png" alt="heroimg" className="display-hero-img" />
+						<img src="images/phones.webp" alt="heroimg" className="display-hero-img" />
 					</div>
 					<div className="display-content-text">
 						<h1 className="display-text-h1">
