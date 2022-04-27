@@ -1,0 +1,123 @@
+.footer{
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+    padding: 100px;
+    background-color: bisque;
+    background: url(../../../public/images/footsteps.svg);
+    background-position-y:100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+    .footer-container{
+        width: 100%;
+        max-width:1200px;
+        margin: auto;
+
+        .text-grids{
+            display:grid;
+            grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
+            grid-template-rows:auto;
+            grid-column-gap: 1em ;
+            grid-row-gap:1em;
+
+            .about{
+                display:flex;
+                flex-direction: column;
+                align-items: flex-start;
+
+                img{
+                    width:40px;
+                    margin-bottom: 25px;
+                }
+
+                p{
+                    margin-bottom : 10px;
+                    color: #444;
+                    font-size: 18px;
+                    line-height: 1.5;
+                }
+
+                .tag{
+                    margin-bottom:20px;
+                    color: #222;
+                    font-size:13px;
+                    font-weight:600;
+                    letter-spacing:1.5px;
+                }
+
+                .links{
+                    margin-bottom:12px;
+                    padding:8px 6px 8px 0px;
+                    font-size: 16px;
+                    color:#5d6c92;
+                    letter-spacing:0.5px;
+                }
+            }
+
+            .details{
+                grid-row-start: span 1;
+                grid-row-end: span 1;
+                grid-column-start: span 2;
+                grid-column-end: span 2;
+            }
+        }
+
+        .footer-credits {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 1em;
+            margin-top:80px;
+            padding-top:80px;
+            border-top: 1px solid rgba(126,130,143,0.09);
+
+            .credits{
+                display: flex;
+                width:50%;
+                min-height:43px;
+                align-items: center;
+
+                .text-content {
+                    color: #353448;
+
+                    a{
+                        color: #2fb9c0;
+                        text-decoration: underline;
+                    }
+                }
+            }
+
+            .social-icons {
+                display: flex;
+                width:50%;
+                min-height:42px;
+                justify-content:flex-end;
+                align-items:center;
+
+                .icons{
+                    display: flex;
+
+                    .icon{
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        margin-right:12px;
+                        margin-left: 12px;
+                        padding: 10px;
+                        border-style: solid;
+                        border-width: 1px;
+                        border-color:rgba(126,130,143,0.2);
+                        border-radius:50%;
+
+                        &:hover{
+                            border-color:rgba(126,130,143,0.5);
+                        }
+                    }
+                }
+            }
+
+        }
+    }
+}
