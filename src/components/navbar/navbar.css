@@ -1,0 +1,109 @@
+.navbar {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--primary9);
+    padding: 0.5em 2em;
+    color: var(--primary1);
+}
+.navbar-logo {
+    font-size: 1.125em;
+}
+.navbar-nav {
+    display: flex;
+    background-color: inherit;
+    gap: 1em 1.5em;
+}
+.navbar-link {
+    position: relative;
+    font-weight: 500;
+    padding: 0 1em;
+    text-decoration: none;
+    transition: transform 0.3s;
+}
+.navbar-link,
+.navbar-link:visited {
+    color: inherit;
+}
+.navbar-link.active,
+.navbar-link:hover {
+    color: var(--white);
+    transform: scale(1.15);
+}
+.navbar-link:before {
+    position: absolute;
+    content: "";
+    width: 75%;
+    left: 50%;
+    height: 0.5em;
+    bottom: 3px;
+    background-color: rgba(255,255,255,0.3);
+    opacity: 0;
+    transform: translate(-50%,100%) scale(1.05);
+    transition: transform .3s, opacity .3s;
+}
+.navbar-link.active:before,
+.navbar-link:hover:before {
+    opacity: 1;
+    transform: translate(-50%,0) scale(1);
+}
+
+.navbar-toggle {
+    display: none;
+    font-size: inherit;
+    appearance: none;
+    border: 0;
+    background-color: transparent;
+    padding: 0.5em;
+    cursor: pointer;
+    color: inherit;
+    border-radius: 50%;
+    transition: transform 0.35s, box-shadow 0.3s;
+}
+.navbar-toggle[data-open],
+.navbar-toggle:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+    box-shadow: 0 0.8em 2.5em -0.6em rgba(0, 0, 0, 0.15);
+    transform: translateY(-2px);
+}
+.navbar-toggle svg {
+    display: block;
+    width: 1.5em;
+    fill: currentColor;
+}
+
+@media only screen and (max-width: 767px) {
+    .navbar {
+        padding-right: 1.5em;
+    }
+    .navbar-nav {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        flex-direction: column;
+        align-items: center;
+        padding: 1em 2em 2em;
+        border-top: 1px solid rgba(255, 255, 255, 0.15);
+
+        opacity: 0;
+        visibility: hidden;
+        pointer-events: none;
+    }
+    .navbar-nav[data-open] {
+        opacity: 1;
+        visibility: visible;
+        pointer-events: auto;
+    }
+    .navbar-nav[data-open] .navbar-link {
+        opacity: 1;
+    }
+    .navbar-link {
+        opacity: 0;
+        transition: transform 0.3s, opacity 0.35s 0.15s;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+}

@@ -8,6 +8,8 @@ import { ReactComponent as Github } from '../../assets/icons/github.svg'
 import { ReactComponent as Instagram } from '../../assets/icons/instagram.svg'
 import { ReactComponent as Facebook } from '../../assets/icons/facebook.svg'
 import { ReactComponent as Twitter } from '../../assets/icons/twitter.svg'
+import { ReactComponent as MenuBar } from '../../assets/icons/menu.svg'
+import { ReactComponent as Close } from '../../assets/icons/close.svg'
 
 export const icons = {
 	african: African,
@@ -20,4 +22,6 @@ export const icons = {
 	instagram: Instagram,
 	facebook: Facebook,
 	twitter: Twitter,
+	menu: MenuBar,
+	close: Close,
 }

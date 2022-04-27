@@ -72,7 +72,10 @@ yarn start
 -   Logo by [Anastasia
     Latysheva](https://thenounproject.com/icon/crown-1077491/) from
     thenounproject
--   SVG shape by [GREY Perspective](https://thenounproject.com/icon/flower-logo-1377478/) from the nounproject
+-   SVG shape by [GREY
+    Perspective](https://thenounproject.com/icon/flower-logo-1377478/) from the
+    nounproject
+-   Icons from the nounproject, simpleicons, heroicons.
 -   Image of dishes from [Wagamama][wagamama], [SnapKitchen][snapkitchen],
     [OurEdenLife][edenlife] and [TheAvocadoShow][avocado]
 
