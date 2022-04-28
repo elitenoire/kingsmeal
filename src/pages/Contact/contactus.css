@@ -26,13 +26,13 @@
 }
 
 form {
-    /* display: flex; */
     border-radius: 25px;
     background-color: #fff;
     color: var(--black);
     padding: 3rem;
     margin: 2em auto;
     border: 1px solid var(--oc-gray-0);
+    box-shadow: -3px 6px 21.1px -4px rgb(34, 48, 102, 0.1);
 }
 
 label {
@@ -61,7 +61,7 @@ button {
     border-radius: 4px;
     padding: 0.5rem;
     border: none;
-    background-color: var(--oc-gray-3);
+    background-color: var(--oc-gray-2);
 }
 
 button,
