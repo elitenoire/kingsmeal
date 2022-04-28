@@ -47,10 +47,6 @@ textarea {
     width: 50%;
 }
 
-.flex-buttons {
-    display: block;
-}
-
 input, textarea {
     border-radius: 5px;
     border-style: solid;
@@ -67,6 +63,14 @@ button {
     border: none;
     background-color: var(--oc-gray-3);
 }
+
+button,
+input,
+textarea {
+    font-family: inherit;
+    color: inherit;
+}
+
 .info-flex-row {
     display: flex;
     flex-wrap: wrap;
@@ -74,7 +78,11 @@ button {
 }
 
 .flex-buttons {
-    margin-bottom: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5em;
+    margin-bottom: 2.5em;
 }
 
 .x-button {
@@ -94,7 +102,6 @@ button {
     border-radius: 50em;
     padding: 0.8em 1.6em;
     font-weight: 700;
-    margin-bottom: 1em;
 }
 button:hover {
     background-color: var(--primary);

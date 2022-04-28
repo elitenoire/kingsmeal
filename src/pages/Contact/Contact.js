@@ -13,7 +13,6 @@ export default function Contact() {
 					<div className="info-flex">
 						<button className="x-button">
 							<img src="images/location.png" alt="location icon" />
-							{/* images/Hero-Image.png */}
 							<p>25 Festac Close.</p>
 						</button>
 					</div>
