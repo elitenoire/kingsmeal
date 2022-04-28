@@ -5,12 +5,6 @@
     padding: 6em 1.5em;
     margin: auto;
 }
-
-.info-flex {
-    font-size: var(--fs-sm);
-    padding: 1em;
-}
-
 .getintouch {
     padding: 2em 0;
     margin-bottom: 2em;
@@ -75,7 +69,12 @@ textarea {
 .info-flex-row {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+}
+.info-flex {
+    display: flex;
+    flex: auto;
+    font-size: var(--fs-sm);
+    padding: 1em;
 }
 
 .flex-buttons {
@@ -90,6 +89,7 @@ textarea {
     padding: 2em;
     background-color: var(--secondary1);
     height: 100%;
+    width: 100%;
 }
 
 .x-button:hover {
