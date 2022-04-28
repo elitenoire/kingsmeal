@@ -51,7 +51,7 @@ export default function Contact() {
 						</div>
 
 						<p className="flex-right">
-							<label for="enquiry">Message</label>
+							<label htmlFor="enquiry">Message</label>
 							<textarea id="enquiry" name="enquiry"></textarea>
 						</p>
 					</div>
