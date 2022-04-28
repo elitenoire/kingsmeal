@@ -32,7 +32,7 @@ const Footer = () => {
 				</div>
 				<div className="footer-credits">
 					<div className="credits">
-						<div className="text-content">Built with 💚</div>
+						<div className="text-content">Built with 💚 by the Kings Meal Team</div>
 					</div>
 					<div className="social-icons">
 						<div className="icons">

@@ -4,8 +4,8 @@
     justify-content:center;
     align-items:center;
     padding: 50px;
-    background-color: bisque;
     background: url(../../../public/images/footsteps.svg);
+    background-color: var(--oc-gray-0);
     background-position-y:100%;
     background-size: contain;
     background-repeat: no-repeat;
@@ -13,23 +13,13 @@
     .footer-container{
         width: 100%;
         max-width:1200px;
-        margin: auto; 
-        display: flex;
-        flex-direction: column;
-        grid-column-gap: 0.9rem;
-        @media screen and (min-width: 1200px){
-            display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-column-gap: 0.9rem;
-
-            
-        }
+        margin: auto;
 
         .text-grids{
             display:grid;
-            grid-template-columns: 2fr 1fr 1fr 1fr;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
             grid-template-rows:auto;
-            grid-column-gap: 1em ;
+            grid-column-gap: 3em ;
             grid-row-gap:1em;
 
             .about{
@@ -44,14 +34,14 @@
 
                 p{
                     margin-bottom : 10px;
-                    color: #333;
+                    color: var(--text);
                     font-size: 18px;
                     line-height: 1.5;
                 }
 
                 .tag{
                     margin-bottom:20px;
-                    color: #333;
+                    color: var(--text);
                     font-size:13px;
                     font-weight:600;
                     letter-spacing:1.5px;
@@ -73,12 +63,6 @@
                 }
             }
 
-            .details{
-                grid-row-start: span 1;
-                grid-row-end: span 1;
-                grid-column-start: span 2;
-                grid-column-end: span 2;
-            }
         }
 
         .footer-credits {
@@ -86,20 +70,10 @@
             justify-content: space-between;
             align-items: center;
             font-size: 1em;
-            margin-top:80px;
-            padding-top:80px;
+            margin-top:2em;
+            padding-top:2.5em;
             border-top: 1px solid rgba(126,130,143,0.09);
             width: 100%;
-
-            @media screen and (min-width: 769px){
-                flex-direction: row;
-                justify-content: space-between;
-                align-items: center;
-                font-size: 1em;
-                margin-top:0px;
-                padding-top:0px;
-                border-top: none;
-            }
 
             .credits{
                 display: flex;
@@ -108,12 +82,7 @@
                 align-items: center;
 
                 .text-content {
-                    color: #353448;
-
-                    a{
-                        color: #2fb9c0;
-                        text-decoration: underline;
-                    }
+                    color: var(--text-light);
                 }
             }
 
@@ -140,7 +109,7 @@
                         border-radius:50%;
 
                         &:hover{
-                            border-color:rgba(126,130,143,0.5);
+                            border-color: var(--primary3);
                         }
                     }
                 }

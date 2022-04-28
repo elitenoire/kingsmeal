@@ -99,6 +99,9 @@ textarea {
 .x-button img {
     width: auto;
 }
+.x-button p {
+    word-break: break-word;
+}
 .pill-button {
     border-radius: 50em;
     padding: 0.8em 1.6em;
