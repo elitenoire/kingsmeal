@@ -16,7 +16,7 @@ function App() {
 					<Route path="product" element={<Product />} />
 					<Route path="contact" element={<Contact />} />
 				</Route>
-			</Routes>{' '}
+			</Routes>
 		</Router>
 	)
 }

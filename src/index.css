@@ -84,3 +84,6 @@ a,a:visited {
 a.plain {
   text-decoration: none;
 }
+ul {
+  list-style: none;
+}

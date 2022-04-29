@@ -6,7 +6,7 @@ import data from '../../data'
 
 function ProductPage() {
 	return (
-		<div className="product-page">
+		<>
 			<div className="product-hero">
 				<div className="product-hero-container">
 					<h1>Our Menu</h1>
@@ -46,7 +46,7 @@ function ProductPage() {
 					</li>
 				))}
 			</ul>
-		</div>
+		</>
 	)
 }
 

@@ -5,14 +5,14 @@ import Header from '../Header/Header'
 
 function Layout() {
 	return (
-		<>
+		<div className="app-container">
 			<Header />
 			<Navbar />
 			<main>
 				<Outlet />
 			</main>
 			<Footer />
-		</>
+		</div>
 	)
 }
 
