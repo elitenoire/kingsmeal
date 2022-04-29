@@ -1,120 +1,106 @@
 .footer{
-    display:flex;
-    flex-direction: column;
-    justify-content:center;
-    align-items:center;
-    padding: 50px;
+    padding: 2em;
     background: url(../../../public/images/footsteps.svg);
     background-color: var(--oc-gray-0);
     background-position-y:100%;
     background-size: contain;
     background-repeat: no-repeat;
 
-    .footer-container{
-        width: 100%;
-        max-width:1200px;
-        margin: auto;
+    .text-grids{
+        display:grid;
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+        grid-column-gap: 3em ;
+        grid-row-gap:1em;
 
-        .text-grids{
-            display:grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            grid-template-rows:auto;
-            grid-column-gap: 3em ;
-            grid-row-gap:1em;
+        .about{
+            display:flex;
+            flex-direction: column;
+            align-items: flex-start;
 
-            .about{
-                display:flex;
-                flex-direction: column;
-                align-items: flex-start;
-
-                img{
-                    width:40px;
-                    margin-bottom: 25px;
-                }
-
-                p{
-                    margin-bottom : 10px;
-                    color: var(--text);
-                    font-size: 18px;
-                    line-height: 1.5;
-                }
-
-                .tag{
-                    margin-bottom:20px;
-                    color: var(--text);
-                    font-size:13px;
-                    font-weight:600;
-                    letter-spacing:1.5px;
-                }
-
-                .links{
-                    margin-bottom:12px;
-                    padding:8px 6px 8px 0px;
-                    font-size: 16px;
-                    color: var(--text);
-                    letter-spacing:0.5px;
-                }
-                .links:hover{
-                    color: var(--primary)
-                }
-                .logo {
-                    font-size: 2em;
-                    margin-bottom: 0.5em;
-                }
+            img{
+                width:40px;
+                margin-bottom: 25px;
             }
 
+            p{
+                margin-bottom : 10px;
+                color: var(--text);
+                font-size: 18px;
+                line-height: 1.5;
+            }
+
+            .tag{
+                margin-bottom:20px;
+                color: var(--text);
+                font-size:13px;
+                font-weight:600;
+                letter-spacing:1.5px;
+            }
+
+            .links{
+                margin-bottom:12px;
+                padding:8px 6px 8px 0px;
+                font-size: 16px;
+                color: var(--text);
+                letter-spacing:0.5px;
+            }
+            .links:hover{
+                color: var(--primary)
+            }
+            .logo {
+                font-size: 2em;
+                margin-bottom: 0.5em;
+            }
         }
 
-        .footer-credits {
+    }
+
+    .footer-credits {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 1em;
+        font-size: 1em;
+        margin-top:2em;
+        padding-top:2.5em;
+        border-top: 1px solid rgba(126,130,143,0.09);
+
+        .text-content {
+            color: var(--text-light);
+        }
+
+        .social-icons {
             display: flex;
-            justify-content: space-between;
-            align-items: center;
-            font-size: 1em;
-            margin-top:2em;
-            padding-top:2.5em;
-            border-top: 1px solid rgba(126,130,143,0.09);
-            width: 100%;
+            align-items:center;
 
-            .credits{
+            .icons{
                 display: flex;
-                width:50%;
-                min-height:43px;
-                align-items: center;
 
-                .text-content {
-                    color: var(--text-light);
-                }
-            }
-
-            .social-icons {
-                display: flex;
-                width:50%;
-                min-height:42px;
-                justify-content:flex-end;
-                align-items:center;
-
-                .icons{
+                .icon{
                     display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    margin-right:12px;
+                    margin-left: 12px;
+                    padding: 10px;
+                    border-style: solid;
+                    border-width: 1px;
+                    border-color:rgba(126,130,143,0.2);
+                    border-radius:50%;
 
-                    .icon{
-                        display: flex;
-                        justify-content: center;
-                        align-items: center;
-                        margin-right:12px;
-                        margin-left: 12px;
-                        padding: 10px;
-                        border-style: solid;
-                        border-width: 1px;
-                        border-color:rgba(126,130,143,0.2);
-                        border-radius:50%;
-
-                        &:hover{
-                            border-color: var(--primary3);
-                        }
+                    &:hover{
+                        border-color: var(--primary3);
                     }
                 }
             }
-
         }
+
     }
 }
+@media screen and (min-width: 768px) {
+    .footer .footer-credits {
+        justify-content: space-between;
+    }
+}
+
