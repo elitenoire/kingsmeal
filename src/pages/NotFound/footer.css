@@ -1,0 +1,18 @@
+.not-found {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: calc(100vh - 80px);
+    padding: 0 1em;
+    row-gap: 1em;
+}
+
+.not-found .highlight {
+    font-size: var(--fs-2xl);
+    font-weight: 700;
+}
+.not-found p {
+    max-width: 20em;
+    font-size: var(--fs-lg);}

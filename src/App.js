@@ -4,6 +4,7 @@ import Home from './pages/Home.jsx'
 import About from './pages/About'
 import Product from './pages/Product'
 import Contact from './pages/Contact/Contact'
+import NotFound from './pages/NotFound'
 import './App.css'
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
 		<Router>
 			<Routes>
 				<Route path="/" element={<Layout />}>
+					<Route path="*" element={<NotFound />} />
 					<Route index element={<Home />} />
 					<Route path="about" element={<About />} />
 					<Route path="product" element={<Product />} />
