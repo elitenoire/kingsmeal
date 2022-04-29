@@ -1,63 +1,59 @@
-.supportSection{
-    padding:45px;
+.support-container{
+    display: flex;
+    flex-direction: column-reverse;
 
-    .support-container{
-        min-height: 630px;
+    .support-img{
+        flex: 1.2;
         display: flex;
-        flex-direction: column-reverse;
-        justify-content: center;
-
-        @media screen and (min-width: 769px){
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            grid-column-gap: 0.9rem;
-
+        align-items: center;
+        img{
+            width: 100%;
         }
-        .support-img{
-            display: flex;
-            align-items: center;
-            img{
-                width: 100%;
+    }
+
+    .support-content{
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        align-items:flex-start;
+        padding: 2em;
+        background-color: var(--primary);
+        background-image: url('../../../public/images/Pattern.svg');
+        background-size: contain;
+        background-repeat: no-repeat;
+
+        .support-heading{
+            color: var(--white);
+            font-size: var(--fs-2xl);
+            font-weight: 700;
+            line-height: 1.18;
+            margin-bottom: 0.5em;
+            word-break: break-word;
+
+            span{
+                color: var(--primary7);
             }
         }
 
-       .support-content{
-           display: flex;
-           flex-direction: column;
-           justify-content:center;
-           align-items:flex-start;
-           padding: 1.25em 3em;
-           background-color: var(--primary);
-           background-image: url('../../../public/images/Pattern.svg');
-           background-size: contain;
-           background-repeat: no-repeat;
-
-          .support-heading{
-              color: var(--white);
-              font-size: var(--fs-2xl);
-              line-height: 1.2;
-              margin-top: 20px;
-              margin-bottom:10px;
-              font-weight: 700;
-              word-break: break-word;
-
-              .dim-heading{
-                  margin-right: 0.25em;
-                  color: var(--primary7);
-                  
-              }
-          }
-
-          .support-button{
-              margin-top: 42px;
-              background-color: var(--white);
-              color: var(--primary);;
-              padding: 20px 35px;
-              font-size:18px;
-              text-align: center;
-              border-radius:6px;
-          }
-       }
+        .support-button{
+            background-color: var(--white) !important;
+            color: var(--primary) !important;
+        }
     }
+}
 
+@media screen and (min-width: 768px) {
+    .support-container {
+        flex-direction: row;
+        gap: 1em;
+
+        .support-content {
+            padding: 2em 3em;
+        }
+        .support-heading {
+            display: flex;
+            flex-wrap: wrap;
+        }
+    }
 }

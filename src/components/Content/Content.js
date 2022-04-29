@@ -1,50 +1,28 @@
 import { Link } from 'react-router-dom'
-import SecondaryContent from './SecondaryContent/SecondaryContent'
 import './Content.scss'
 
-const Content = () => {
+const Content = props => {
+	const { as: Tag = 'h2', bg, reverse, highlight, text, title, link, btnText, image, children } = props
 	return (
-		<>
-			<div className="content">
-				<div className="content-container">
-					<div className="content-text">
-						<h1 className="text-h1">
-							Beautiful food & takeaway,
-							<span className="primary-text">delivered</span>
-							to your door.
-						</h1>
-						<p className="text-p">
-							Home to fresh & authentic African, European & Spicy foods & cocktails freshly prepared
-							everyday.
-						</p>
-						<div className="btn-container">
-							<Link to="/product" className="btn">
-								{' '}
-								Place Order
-							</Link>
-						</div>
-						<div className="feedbacks">
-							<img className="feedback-img" src="images/trustpilot-logo.svg" alt="trustpilot" />
-							<div className="feedback-text">
-								<span className="primary-text">4.8 out of 5</span>
-								based on 2000+ reviews
-							</div>
-						</div>
+		<div className="content" data-bg={bg || null}>
+			<div className="content-container" data-reverse={reverse ? '' : null}>
+				<div className="content-text">
+					<Tag className="text-heading" data-highlight={highlight ? '' : null}>
+						{title}
+					</Tag>
+					<p className="text-p">{text}</p>
+					<div className="btn-container">
+						<Link to={link} className="btn">
+							{btnText}
+						</Link>
 					</div>
-					<div className="content-img">
-						<img src="images/hero-image.webp" alt="heroimg" className="hero-img" />
-					</div>
+					{children}
+				</div>
+				<div className="content-img">
+					<img src={`images/${image}`} alt="hero" className="hero-img" />
 				</div>
 			</div>
-
-			<SecondaryContent
-				headingBefore="The home of"
-				headingAfter="fresh products"
-				para="We pride ourselves on discovering the best tastes, flavours and recipes from around the world and sharing them with you."
-				btnText="Learn about us"
-				image="group.webp"
-			/>
-		</>
+		</div>
 	)
 }
 
