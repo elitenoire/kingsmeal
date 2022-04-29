@@ -29,6 +29,9 @@
             transform: translateY(-2px);
             box-shadow: 0 0.5em 0.7em -0.3em rgba(black, 0.1);
         }
+        &:active {
+            transform: translateY(-2px) scale(0.98);
+        }
     }
 }
 .main-content {

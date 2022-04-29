@@ -56,7 +56,6 @@ button {
     border-radius: 4px;
     padding: 0.5em;
     border: none;
-    background-color: var(--oc-gray-2);
 }
 
 button,
@@ -106,20 +105,34 @@ textarea {
     border-radius: 50em;
     padding: 0.8em 1.6em;
     font-weight: 700;
-}
-button:hover {
+    cursor: pointer;
     background-color: var(--primary);
     color: var(--white);
-    cursor: pointer;
+    border: 1px solid transparent;
+    transition: transform 0.3s;
 }
-
+.pill-button:hover {
+    transform: translateY(-2px);
+    background-color: var(--primary3);
+}
+.pill-button:active {
+    transform: translateY(-2px) scale(0.95);
+    background-color: var(--primary3);
+}
+.pill-button.tag {
+    background-color: var(--oc-gray-2);
+    color: inherit;
+}
+.pill-button.tag:hover {
+    background-color: var(--primary0);
+    color: var(--primary6);
+}
 .title {
     display: block;
     font-weight: 600;
     margin-bottom: 2rem;
     font-size: var(--fs-md);
 }
-
 .form-divider {
     display: flex;
     width: 100%;

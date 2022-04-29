@@ -60,13 +60,13 @@ export default function Contact() {
 
 					<div className="flex-buttons">
 						<div>
-							<button className="pill-button">Reservation</button>
+							<button className="pill-button tag">Reservation</button>
 						</div>
 						<div>
-							<button className="pill-button">Delivery</button>
+							<button className="pill-button tag">Delivery</button>
 						</div>
 						<div>
-							<button className="pill-button">Collection</button>
+							<button className="pill-button tag">Collection</button>
 						</div>
 					</div>
 
